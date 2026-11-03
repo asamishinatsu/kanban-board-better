@@ -1,0 +1,27 @@
+{
+    "useTabs": false,
+    "tabWidth": 4,
+    "singleQuote": false,
+    "jsxSingleQuote": false,
+    "semi": true,
+    "printWidth": 80,
+    "trailingComma": "all",
+    "endOfLine": "lf",
+    "plugins": [
+        "prettier-plugin-css-order",
+        "@ianvs/prettier-plugin-sort-imports"
+    ],
+    "cssDeclarationSorterOrder": "smacss",
+    "importOrder": [
+        "<BUILTIN_MODULES>",
+        "",
+        "^react(?:-dom)?(?:/.*)?$",
+        "",
+        "<THIRD_PARTY_MODULES>",
+        "",
+        "^@/",
+        "",
+        "^[.]"
+    ],
+    "importOrderTypeScriptVersion": "7.0.2"
+}
