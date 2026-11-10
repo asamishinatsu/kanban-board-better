@@ -1,0 +1,66 @@
+@import url("./fonts.css");
+
+/* CSS variables */
+:root {
+    /* Colors */
+    --color-main-highlights: #eeeefa;
+    --color-main-lighter: #9595e4;
+    --color-main: #6c6cdd;
+    --color-main-darker: #4b4b9c;
+    --color-main-shadows: #2a2a5e;
+    --color-accent-highlights: #fff4d6;
+    --color-accent-lighter: #ffcb33;
+    --color-accent: #ffb800;
+    --color-accent-darker: #e69c00;
+    --color-accent-shadows: #b37a00;
+    --color-bg-main: #f8f9fa;
+    --color-bg-layout: #f4f4fa;
+    --color-text-light: #ffffff;
+    --color-text-dark: #2d2d3b;
+
+    /* Spacing */
+    --spacing-sides: 85px;
+
+    /* Typography */
+    --font-family: "PlusJakartaSans", arial, sans-serif;
+    --font-size-base: 24px;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-bg-main);
+    color: var(--color-text-dark);
+    font-size: var(--font-size-base);
+    font-family: var(--font-family);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-family);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    border: none;
+    background: none;
+    font: inherit;
+    cursor: pointer;
+}
